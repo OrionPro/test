@@ -1,17 +1,18 @@
-    tl5.pause(); // our_achievements
-    tl7.pause(); // our_achievements_item 
-    tl8.pause(); // take_part_img 
-    tl9.pause(); // take_part_img_bot_decor
-    tl10.pause(); // book_now_city
-    tl12.pause(); // monitor
-    tl13.pause(); // why_seo item
-    tl14.pause(); // from_what_is_seo item
-    tl15.pause(); // stages_of_advancement item
-    tl16.pause(); // cost_optimization item
-    tl17.pause(); // our_work_item
-    tl18.pause(); // our_work_itemfrom_what_is_seo_bot_decor
-    tl21.pause(); // from_idea_to_results_item
-    tl22.pause(); // website_promotion_decor
-    tl23.pause(); // from_idea_to_results_decor
-    tl25.pause(); // does_the_sale_item_img_circle
-      
+  // цели
+    TweenMax.from("#g4378", 1.5, { rotation: 360, transformOrigin: "50% 50%", delay: 0.5, ease: Power1.easeInOut });
+    TweenMax.from("#g4950", 1.5, { rotation: 360, transformOrigin: "50% 50%", delay: 0.5, ease: Power1.easeInOut });
+    TweenMax.from("#g4219", 1.5, { rotation: 360, transformOrigin: "50% 50%", delay: 0.5, ease: Power1.easeInOut });
+    TweenMax.from("#path5-circle1", 1.5, { drawSVG: "100% 100%", delay: 0.5 });
+    TweenMax.from("#path5-circle2", 1.5, { drawSVG: "100% 100%", delay: 0.5 });
+    TweenMax.from("#path5-circle3", 1.5, { drawSVG: "100% 100%", delay: 0.5 });
+     // скалы и дома вверху
+    tl.from("#g4445", 0.6, { opacity: 0, y: -250, ease: Back.easeInOut }, 0.1);
+    tl.from("#g4452", 0.6, { opacity: 0, y: -250, ease: Back.easeInOut }, '-=0.5');
+    tl.from("#g4583", 0.6, { opacity: 0, y: -250, ease: Back.easeInOut }, '-=0.5');
+    tl.from("#g5908", 0.6, { opacity: 0, y: -250, ease: Back.easeInOut }, '-=0.5');
+    tl.from("#g5725", 0.6, { opacity: 0, y: -250, ease: Back.easeOut }, '-=0.4');
+    tl.from("#g5837", 0.6, { opacity: 0, y: -250, ease: Back.easeOut }, '-=0.4');
+    tl.from("#path4449", 0.6, { opacity: 0, y: 300, ease: Power2.easeInOut }, '-=0.4');
+    // облака
+    tl.from("#g4280", 0.6, { opacity: 0, x: -400, ease: Back.easeOut }, 0.5);
+    tl.from("#g4299", 0.6, { opacity: 0, x: 400, ease: Back.easeOut }, 0.5);  
