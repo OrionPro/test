@@ -1,4 +1,4 @@
-if ($(window).scrollTop() >= 3600 && $(window).scrollTop() <= 3800) {
+if ($(window).scrollTop() >= 0 && $(window).scrollTop() <= 3800) {
         tl14.resume();
     }
     if ($(window).scrollTop() >= 4800 && $(window).scrollTop() <= 5000) {
