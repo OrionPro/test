@@ -721,16 +721,7 @@ $(document).ready(function() {
                 },
                 success: function(data) { // событие после удачного обращения к серверу и получения ответа
                     if (data['error']) { // если обработчик вернул ошибку
-                        alert(data['error']); // покажем её текст
-                    } else { // если все прошло ок
-                        $('.dm-modal form').hide(); // пишем что все ок
-                        $('.dm-modal .sucess_mail').show('fade', 500);
-                        $('.popup .close').hide();
-                        $('.popup').delay(2000).fadeOut(
-                            function() {
-                                $('.popup').hide('fade');
-                                form.trigger('reset');
-                                $('.dm-modal .sucess_mail').hide();
+        cess_mail').hide();
                                 $("#win .close").trigger('click');
                                 $('.popup .close').show();
                             }
