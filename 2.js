@@ -1,18 +1,3 @@
-//  Отправка форм с файлом
-    $("#form3").on('submit', function(e) { // перехватываем все при событии отправки
-        e.preventDefault();
-        var $data = new FormData();
-        var form = $(this);
-        var error = [];
-        $.each(files, function(key, value) {
-            if (!this.type.match(/(.png)|(.jpeg)|(.jpg)|(.gif)$/i) || (this.size / 1024).toFixed(0) > 1524) {
-                alert("Неправильный формат графического файла. Или слишком большой размер. Размер не должен превышать 1 мегабайт!");
-                return false;
-            } else {
-
-            }
-            $data.append(key, value);
-        });
 
         $inputs = $("#form3").find('input[type=hidden]');
         $textarea = $("#form3").find('textarea');
