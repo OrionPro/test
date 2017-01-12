@@ -1,5 +1,4 @@
-    
-
+    2
     if ($(window).scrollTop() >= 4800 && $(window).scrollTop() <= 5000) {
         tl15.resume();
     
