@@ -1,13 +1,31 @@
-
+var tl7 = new TimelineMax(); // our_achievements_item
+var tl8 = new TimelineMax(); // take_part_img
+var tl9 = new TimelineMax(); // take_part_img_bot_decor
+var tl10 = new TimelineMax(); // book_now_city
+var tl11 = new TimelineMax({ repeat: -1 }); // monitor blink
+var tl12 = new TimelineMax(); // monitor
+var tl13 = new TimelineMax(); // why_seo item
         $inputs = $("#form3").find('input[type=hidden]');
         $textarea = $("#form3").find('textarea');
         $.each($inputs, function(key, value) {
-            $data.append($(this).attr('name'), $(this).val());
+  var tl7 = new TimelineMax(); // our_achievements_item
+var tl8 = new TimelineMax(); // take_part_img
+var tl9 = new TimelineMax(); // take_part_img_bot_decor
+var tl10 = new TimelineMax(); // book_now_city
+var tl11 = new TimelineMax({ repeat: -1 }); // monitor blink
+var tl12 = new TimelineMax(); // monitor
+var tl13 = new TimelineMax(); // why_seo item          $data.append($(this).attr('name'), $(this).val());
         });
 var tl = new TimelineMax(); // скалы и дома вверху
 var tl2 = new TimelineMax(); //  ковбой
 var tl3 = new TimelineMax(); // what_else_do_line
-var tl4 = new TimelineMax(); // Наше порфтолио
+var tl7 = new TimelineMax(); // our_achievements_item
+var tl8 = new TimelineMax(); // take_part_img
+var tl9 = new TimelineMax(); // take_part_img_bot_decor
+var tl10 = new TimelineMax(); // book_now_city
+var tl11 = new TimelineMax({ repeat: -1 }); // monitor blink
+var tl12 = new TimelineMax(); // monitor
+var tl13 = new TimelineMax(); // why_seo itemar tl4 = new TimelineMax(); // Наше порфтолио
 var tl5 = new TimelineMax(); // our_achievements
 var tl6 = new TimelineMax({ repeat: -1, yoyo: true }); //анимация стрелок
 var tl7 = new TimelineMax(); // our_achievements_item
