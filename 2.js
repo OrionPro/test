@@ -1,56 +1,4 @@
-$(function() {
 
-    //SVG Fallback
-    // if(!Modernizr.svg) {
-    //  $("img[src*='svg']").attr("src", function() {
-    //      return $(this).attr("src").replace(".svg", ".png");
-    //  });
-    // };
-});
-$(window).scroll(function() {
-    console.log($(window).scrollTop());
-    if ($(window).scrollTop() >= 10 && $(window).scrollTop() <= 199) {
-        // tl.reverse();
-    }
-    if ($(window).scrollTop() >= 200 && $(window).scrollTop() <= 450) {
-        tl.resume();
-    }
-    if ($(window).scrollTop() >= 350 && $(window).scrollTop() <= 550) {
-        tl2.reverse();
-    }
-    if ($(window).scrollTop() >= 550 && $(window).scrollTop() <= 700) {
-        tl2.resume();
-    }
-    if ($(window).scrollTop() >= 650 && $(window).scrollTop() <= 800) {
-        tl3.resume();
-    }
-    if ($(window).scrollTop() >= 1400 && $(window).scrollTop() <= 1600) {
-        tl4.resume();
-    }
-    if ($(window).scrollTop() >= 2300 && $(window).scrollTop() <= 2600) {
-        tl5.resume();
-    }
-    if ($(window).scrollTop() >= 2900 && $(window).scrollTop() <= 3000) {
-        tl7.resume();
-    }
-    if ($(window).scrollTop() >= 3300 && $(window).scrollTop() <= 3600) {
-        tl8.resume();
-    }
-    if ($(window).scrollTop() >= 3800 && $(window).scrollTop() <= 3900) {
-        tl9.resume();
-    }
-    if ($(window).scrollTop() >= 5700 && $(window).scrollTop() <= 5900) {
-        tl10.resume();
-    }
-    if ($(window).scrollTop() >= 100 && $(window).scrollTop() <= 300) {
-        tl12.resume();
-    }
-    if ($(window).scrollTop() >= 1000 && $(window).scrollTop() <= 1200) {
-        tl13.resume();
-    }
-    if ($(window).scrollTop() >= 3600 && $(window).scrollTop() <= 3800) {
-        tl14.resume();
-    }
     if ($(window).scrollTop() >= 4800 && $(window).scrollTop() <= 5000) {
         tl15.resume();
     }
@@ -106,20 +54,7 @@ $(document).ready(function() {
     // Основные анимации
 
     tl.pause(); // скалы и дома вверху
-    tl2.pause(); //  ковбой
-    tl3.pause(); // what_else_do_line
-    tl4.pause(); // Наше порфтолио
-    tl5.pause(); // our_achievements
-    tl7.pause(); // our_achievements_item
-    tl8.pause(); // take_part_img
-    tl9.pause(); // take_part_img_bot_decor
-    tl10.pause(); // book_now_city
-    tl12.pause(); // monitor
-    tl13.pause(); // why_seo item
-    tl14.pause(); // from_what_is_seo item
-    tl15.pause(); // stages_of_advancement item
-    tl16.pause(); // cost_optimization item
-    tl17.pause(); // our_work_item
+
     tl18.pause(); // our_work_itemfrom_what_is_seo_bot_decor
     tl21.pause(); // from_idea_to_results_item
     tl22.pause(); // website_promotion_decor
@@ -161,22 +96,7 @@ $(document).ready(function() {
             tl8.resume();
         }
         if ($(window).scrollTop() >= 4200) {
-            tl9.resume();
-        }
-        if (window.matchMedia("(max-width: 1200px)").matches) {
-            if ($(window).scrollTop() >= 4800) {
-                tl10.resume();
-            }
-        } else {
-            if ($(window).scrollTop() >= 5900) {
-                tl10.resume();
-            }
-        }
-        if ($(window).scrollTop() >= 200) {
-            tl12.resume();
-        }
-        if ($(window).scrollTop() >= 1000) {
-            tl13.resume();
+
         }
         if ($(window).scrollTop() >= 3600) {
             tl14.resume();
