@@ -1,29 +1,24 @@
+//  Отправка форм с файлом
+    $("#form3").on('submit', function(e) { // перехватываем все при событии отправки
+        e.preventDefault();
+        var $data = new FormData();
+        var form = $(this);
+        var error = [];
+        $.each(files, function(key, value) {
+            if (!this.type.match(/(.png)|(.jpeg)|(.jpg)|(.gif)$/i) || (this.size / 1024).toFixed(0) > 1524) {
+                alert("Неправильный формат графического файла. Или слишком большой размер. Размер не должен превышать 1 мегабайт!");
+                return false;
+            } else {
 
-    if ($(window).scrollTop() >= 4800 && $(window).scrollTop() <= 5000) {
-        tl15.resume();
-    }
-    if ($(window).scrollTop() >= 6200 && $(window).scrollTop() <= 6400) {
-        tl16.resume();
-    }
-    if ($(window).scrollTop() >= 7600 && $(window).scrollTop() <= 7800) {
-        tl17.resume();
-    }
-    if ($(window).scrollTop() >= 4500 && $(window).scrollTop() <= 4800) {
-        tl18.resume();
-    }
-    if ($(window).scrollTop() >= 1800 && $(window).scrollTop() <= 2100) {
-        tl21.resume();
-    }
-    if ($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1400) {
-        tl22.resume();
-    }
-    if ($(window).scrollTop() >= 2800 && $(window).scrollTop() <= 3000) {
-        tl23.resume();
-    }
-    if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= 500) {
-        tl25.resume();
-    }
-});
+            }
+            $data.append(key, value);
+        });
+
+        $inputs = $("#form3").find('input[type=hidden]');
+        $textarea = $("#form3").find('textarea');
+        $.each($inputs, function(key, value) {
+            $data.append($(this).attr('name'), $(this).val());
+        });
 var tl = new TimelineMax(); // скалы и дома вверху
 var tl2 = new TimelineMax(); //  ковбой
 var tl3 = new TimelineMax(); // what_else_do_line
