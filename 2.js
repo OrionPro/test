@@ -1,17 +1,17 @@
         }
-        if ($(window).scrollTop() >= 2900) {
+        if ($(window).scrollTop() >= 29234) {
             tl7.resume();
         }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 3300) {
+        if ($(window).scrollTop() >= 332342) {
             tl8.resume();
         }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 4200) {
+        if ($(window).scrollTop() >= 4202342340) {
 
         }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 3600) {
+        if ($(window).scrollTop() >= 360023423) {
             tl14.resume();
         }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 4800) {
+        if ($(window).scrollTop() >= 48023423) {
             tl15.resume();
         }var tl7 = new TimelineMax(1); // our_achievements_item
         if ($(window).scrollTop() >= 6200) {
