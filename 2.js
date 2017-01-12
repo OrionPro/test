@@ -1,4 +1,16 @@
-tl3.from("#g4995", 0.8, { opacity: 0, transformOrigin: "50% 50%", scale: 0 }, 1.5);
+// hover on item  class="path4611"  class="circle4613" 
+    $(".g5504").hover(
+        function() {
+            TweenMax.to($(this).find(".path4611"), 0.7, { fill: "#eed350" });
+            TweenMax.to($(this).find(".circle4613"), 0.7, { fill: "#e2c63b" });
+            TweenMax.to($(this).find(".path4393"), 0.7, { fill: "#a2361f" });
+        },
+        function() {
+            TweenMax.to($(this).find(".path4611"), 0.7, { fill: "#d45b3e" });
+            TweenMax.to($(this).find(".circle4613"), 0.7, { fill: "#c45237" });
+            TweenMax.to($(this).find(".path4393"), 0.7, { fill: "#B14731" });
+        }
+    );tl3.from("#g4995", 0.8, { opacity: 0, transformOrigin: "50% 50%", scale: 0 }, 1.5);
 tl3.from((".what_else_do_item_p"), 0.7, { opacity: 0, transformOrigin: "50% 50%", scale: 0 }, 1);
 tl3.from("#g42911111", 0.8, { opacity: 0, transformOrigin: "50% 50%", scale: 0 }, 1.7);
 
