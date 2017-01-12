@@ -1,6 +1,6 @@
-if ($(window).scrollTop() >= 3800 && $(window).scrollTop() <= 3900) {
-    tl9.resume();
-}
-if ($(window).scrollTop() >= 5700 && $(window).scrollTop() <= 5900) {
-    tl10.resume();
-}
+ if ($(window).scrollTop() >= 1000 && $(window).scrollTop() <= 1200) {
+        tl13.resume();
+    }
+    if ($(window).scrollTop() >= 3600 && $(window).scrollTop() <= 3800) {
+        tl14.resume();
+   }
