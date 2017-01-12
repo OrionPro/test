@@ -1,3 +1,23 @@
+        }
+        if ($(window).scrollTop() >= 2900) {
+            tl7.resume();
+        }
+        if ($(window).scrollTop() >= 3300) {
+            tl8.resume();
+        }
+        if ($(window).scrollTop() >= 4200) {
+
+        }
+        if ($(window).scrollTop() >= 3600) {
+            tl14.resume();
+        }
+        if ($(window).scrollTop() >= 4800) {
+            tl15.resume();
+        }
+        if ($(window).scrollTop() >= 6200) {
+            tl16.resume();
+        }
+        if ($(window).scrollTop() >= 7600) {
 var tl7 = new TimelineMax(1); // our_achievements_item
 var tl8 = new TimelineMax(1); // take_part_img
 var tl9 = new TimelineMax(1); // take_part_img_bot_decor
