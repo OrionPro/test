@@ -1,11 +1,11 @@
 
-    tl.pause(); // скалы и дома вверху
+    tl.pause(2); // скалы и дома вверху
 
-    tl18.pause(); // our_work_itemfrom_what_is_seo_bot_decor
-    tl21.pause(); // from_idea_to_results_item
-    tl22.pause(); // website_promotion_decor
-    tl23.pause(); // from_idea_to_results_decor
-    tl25.pause(); // does_the_sale_item_img_circle
+    tl18.pause(2);      // our_work_itemfrom_what_is_seo_bot_decor
+    tl21.pause(2);          // from_idea_to_results_item
+    tl22.pause(2); // website_promotion_decor
+    tl23.pause(2); // from_idea_to_results_decor
+    tl25.pause(2); // does_the_sale_item_img_circle
 
 var tl7 = new TimelineMax(1); // our_achievements_item
 var tl8 = new TimelineMax(1); // take_part_img
