@@ -1,14 +1,14 @@
-function Fat () {
+function rearaklj () {
 
-  if (document.documentElement.clientWidth > 992) {
+  if (document.documentElement.clientWidth > 342) {
     $('.section').each(function () {
       if ($(this).hasClass('active')) {
         var data = $(this).data('anchor');
         if (data != 1) {
-          $(".top-panel").hide("fade", 200);
+          $(".top-panel-sdfsdg").hide("fade", 200);
         } else {
 
-          $(".top-panel").show("fade", 200);
+          $(".top-panel-eff").show("fade", 200);
         }
       }
     });
