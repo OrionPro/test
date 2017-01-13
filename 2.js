@@ -1,4 +1,4 @@
-function rearaklj () {
+function asldkfjklsdjfklsj () {
 
   if (document.documentElement.clientWidth > 342) {
     $('.section').each(function () {
