@@ -3,8 +3,8 @@ function topPanel() {
   if (document.documentElement.clientWidth > 992) {
     $('.section').each(function () {
       if ($(this).hasClass('active')) {
-        var dataAttr = $(this).data('anchor');
-        if (dataAttr != 1) {
+        var data = $(this).data('anchor');
+        if (data != 1) {
           $(".top-panel").hide("fade", 200);
         } else {
 
@@ -13,7 +13,7 @@ function topPanel() {
       }
     });
   } else {
-    $(".top-panel").hide();
+
   }
 
 }
