@@ -1,4 +1,64 @@
-function asldkfjklsdjfklsj () {
+function setAnimation(down, up) {
+  var section = document.querySelectorAll('section');
+
+
+  // проебежим по всем секциям
+
+
+  for (var i = 0; i < section.length; i++) {
+    var sectionClass = section[i].getAttribute('class').split(' '),
+        attribute = section[i].getAttribute('data-anchor');
+
+
+    // пробежим по всем классам активной секции
+    for (var j = 0; j < sectionClass.length; j++) {
+
+      // если секция активна то...
+      if (sectionClass[j] == 'active') {
+
+        for (var q = 0; q < sectionClass.length; q++) {
+          // проверяем на наличия класса animation
+          if (sectionClass[q] == 'animation') {
+            limit++;
+            thisSection = parseInt(attribute);
+          }
+          if (sectionClass[q] !== 'animation') {
+            section[i].classList.add('animation');
+            limit = 0;
+            nextSection = parseInt(attribute);
+          }
+        }
+        if (limit == 0) {
+          if (thisSection < nextSection) {
+            // вызов анимации по скроллу вниз
+            down[i].duration(2.5);
+            down[i].play(0);
+            for (var k = 0; k < section.length; k++) {
+              // удаление всех классов animation, кроме активной секции
+              if (k != i) {
+                section[k].classList.remove('animation');
+                down[k].pause(0);
+              }
+            }
+          }
+          if (thisSection > nextSection) {
+            // вызов анимации по скроллу вверх
+            up[i].duration(2);
+            up[i].play(0);
+            for (var k = 0; k < section.length; k++) {
+              if (k != i) {
+                section[k].classList.remove('animation');
+                up[k].pause(0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+unction asldkfjklsdjfklsj () {
 
 
   if (document.documentElement.clientWidth > 992) {
@@ -58,3 +118,5 @@ $(document).ready(function () {
       }
 
     });
+
+
