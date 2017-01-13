@@ -1,9 +1,10 @@
-        }
+var tl7 = new TimelineMax(1); // our_achievements_item
         if ($(window).scrollTop() >= 29234) {
             tl7.resume();
+var tl7 = new TimelineMax(1); // our_achievements_item
         }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 332342) {
-            tl8.resume();
+        if ($(window).var tl7 = new TimelineMax(1); // our_achievements_item() >= 332342) {
+var tl7 = new TimelineMax(1); // our_achievements_item
         }var tl7 = new TimelineMax(1); // our_achievements_item
         if ($(window).scrollTop() >= 4202342340) {
 
