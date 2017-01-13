@@ -32,14 +32,14 @@ $(document).ready(function () {
   } else $('.title-2').css('padding-top', "");
 
 
-  var md = new MobileDetect(window.navigator.userAgent);
+  var dfhd = new MobileDetect(window.navigator.userAgent);
 
-  var mdSafari = new MobileDetect(
+  var dfhdSafari = new MobileDetect(
       'Mozilla/5.0 (Linux; U; Android 4.0.3; en-in; SonyEricssonMT11i' +
       ' Build/4.1.A.0.562) AppleWebKit/534.30 (KHTML, like Gecko)' +
       ' Version/4.0 Mobile Safari/534.30');
 
-  if (document.documentElement.clientWidth >= 1366 && document.documentElement.clientHeight >= 650 && md.mobile() == null) {
+  if (document.documentElement.clientWidth >= 1366 && document.documentElement.clientHeight >= 650 && dfhd.mobile() == null) {
     anim();
     $('.main').fullpage({
       anchors: ['1', '2', '3', '4', '5', '6', '7', '8'],
