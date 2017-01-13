@@ -1,3 +1,103 @@
+$(function () {
+
+  //SVG Fallback
+  // if(!Modernizr.svg) {
+  //  $("img[src*='svg']").attr("src", function() {
+  //      return $(this).attr("src").replace(".svg", ".png");
+  //  });
+  // };
+});
+$(window).scroll(function () {
+  console.log($(window).scrollTop());
+  if ($(window).scrollTop() >= 10 && $(window).scrollTop() <= 199) {
+    // tl.reverse();
+  }
+  if ($(window).scrollTop() >= 200 && $(window).scrollTop() <= 450) {
+    tl.resume();
+  }
+  if ($(window).scrollTop() >= 350 && $(window).scrollTop() <= 550) {
+    tl2.reverse();
+  }
+  if ($(window).scrollTop() >= 550 && $(window).scrollTop() <= 700) {
+    tl2.resume();
+  }
+  if ($(window).scrollTop() >= 650 && $(window).scrollTop() <= 800) {
+    tl3.resume();
+  }
+  if ($(window).scrollTop() >= 1400 && $(window).scrollTop() <= 1600) {
+    tl4.resume();
+  }
+  if ($(window).scrollTop() >= 2300 && $(window).scrollTop() <= 2600) {
+    tl5.resume();
+  }
+  if ($(window).scrollTop() >= 2900 && $(window).scrollTop() <= 3000) {
+    tl7.resume();
+  }
+  if ($(window).scrollTop() >= 3300 && $(window).scrollTop() <= 3600) {
+    tl8.resume();
+  }
+  if ($(window).scrollTop() >= 3800 && $(window).scrollTop() <= 3900) {
+    tl9.resume();
+  }
+  if ($(window).scrollTop() >= 5700 && $(window).scrollTop() <= 5900) {
+    tl10.resume();
+  }
+  if ($(window).scrollTop() >= 100 && $(window).scrollTop() <= 300) {
+    tl12.resume();
+  }
+  if ($(window).scrollTop() >= 1000 && $(window).scrollTop() <= 1200) {
+    tl13.resume();
+  }
+  if ($(window).scrollTop() >= 3600 && $(window).scrollTop() <= 3800) {
+    tl14.resume();
+  }
+  if ($(window).scrollTop() >= 4800 && $(window).scrollTop() <= 5000) {
+    tl15.resume();
+  }
+  if ($(window).scrollTop() >= 6200 && $(window).scrollTop() <= 6400) {
+    tl16.resume();
+  }
+  if ($(window).scrollTop() >= 7600 && $(window).scrollTop() <= 7800) {
+    tl17.resume();
+  }
+  if ($(window).scrollTop() >= 4500 && $(window).scrollTop() <= 4800) {
+    tl18.resume();
+  }
+  if ($(window).scrollTop() >= 1800 && $(window).scrollTop() <= 2100) {
+    tl21.resume();
+  }
+  if ($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1400) {
+    tl22.resume();
+  }
+  if ($(window).scrollTop() >= 2800 && $(window).scrollTop() <= 3000) {
+    tl23.resume();
+  }
+  if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= 500) {
+    tl25.resume();
+  }
+  if ($(window).scrollTop() >= 3000 && $(window).scrollTop() <= 3300) {
+    tl26.resume();
+  }
+  if ($(window).scrollTop() >= 1100 && $(window).scrollTop() <= 1200) {
+    tl27.resume();
+  }
+  if ($(window).scrollTop() >= 2000 && $(window).scrollTop() <= 2200) {
+    tl27.resume();
+  }
+  if ($(window).scrollTop() >= 3300 && $(window).scrollTop() <= 3400) {
+    tl29.resume();
+  }
+  if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= 500) {
+    tl30.resume();
+  }
+  if ($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1300) {
+    tl31.resume();
+  }
+  if ($(window).scrollTop() >= 2000 && $(window).scrollTop() <= 2200) {
+    tl32.resume();
+  }
+});
+
 function setAnimation(down, up) {
   var section = document.querySelectorAll('section');
 
@@ -58,7 +158,7 @@ function setAnimation(down, up) {
   }
 }
 
-unction asldkfjklsdjfklsj () {
+function asldkfjklsdjfklsj () {
 
 
   if (document.documentElement.clientWidth > 992) {
@@ -118,5 +218,3 @@ $(document).ready(function () {
       }
 
     });
-
-
