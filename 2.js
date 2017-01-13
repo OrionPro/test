@@ -1,4 +1,5 @@
-function illya () {
+function asldkfjklsdjfklsj () {
+
 
   if (document.documentElement.clientWidth > 992) {
     $('.section').each(function () {
