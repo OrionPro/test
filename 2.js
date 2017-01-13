@@ -1,4 +1,4 @@
-function topPanel() {
+function topPaneloiporewt () {
 
   if (document.documentElement.clientWidth > 992) {
     $('.section').each(function () {
