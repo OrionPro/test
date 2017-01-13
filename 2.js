@@ -1,24 +1,12 @@
-var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 29234) {
-            tl7.resume();
-var tl7 = new TimelineMax(1); // our_achievements_item
-        }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).var tl7 = new TimelineMax(1); // our_achievements_item() >= 332342) {
-var tl7 = new TimelineMax(1); // our_achievements_item
-        }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 4202342340) {
 
-        }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 360023423) {
-            tl14.resume();
-        }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 48023423) {
-            tl15.resume();
-        }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 6200) {
-            tl16.resume();
-        }var tl7 = new TimelineMax(1); // our_achievements_item
-        if ($(window).scrollTop() >= 7600) {
+    tl.pause(); // скалы и дома вверху
+
+    tl18.pause(); // our_work_itemfrom_what_is_seo_bot_decor
+    tl21.pause(); // from_idea_to_results_item
+    tl22.pause(); // website_promotion_decor
+    tl23.pause(); // from_idea_to_results_decor
+    tl25.pause(); // does_the_sale_item_img_circle
+
 var tl7 = new TimelineMax(1); // our_achievements_item
 var tl8 = new TimelineMax(1); // take_part_img
 var tl9 = new TimelineMax(1); // take_part_img_bot_decor
